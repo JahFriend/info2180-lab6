@@ -1,0 +1,64 @@
+
+body{
+  margin:10;
+/background-color: grey;
+
+
+}
+
+/*Header*/
+h1 {
+position:relative;
+  padding: 20px 5px;
+  border: 1.5px solid ;
+  text-align: center;
+  font-size: 50px;
+  color: black;
+  background-color: green;
+
+	font-family: sans-serif;
+}
+
+/*Page contents except header*/
+.all{
+	border: thin  ;
+	margin-left: 2em;
+	margin-right: 2em;
+	padding: 0.85em;
+  background-color: grey;
+}
+
+/*Input details*/
+#about{
+  font-style: italic;
+  font-size: 13px;
+  color: #808080;
+}
+
+/*Search button*/
+#searchButton,#allDefinitions{
+background-color:#238ce0;
+ color:#ffffff;
+  border-radius:15%;
+   padding:5px;
+}
+
+/*textbox*/
+#check{
+  border-radius: 4px;
+  font-family: serif;
+  padding: 5px;
+}
+
+/*After search*/
+#Definitions{
+  font-family: sans-serif;
+  color: #000000;
+}
+
+/*Contains findings*/
+#textfield {
+	border-bottom:solid;
+  border-width: thin;
+  border-color: grey;
+}
